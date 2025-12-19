@@ -1,1 +1,228 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Professional Portfolio</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f8fa;
+            color: #24292f;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0d1117;
+            color: #ffffff;
+            padding: 2.5rem 1.5rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+            color: #c9d1d9;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        section {
+            background: #ffffff;
+            margin-bottom: 2rem;
+            padding: 1.75rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+
+        section h2 {
+            margin-top: 0;
+            border-bottom: 2px solid #eaecef;
+            padding-bottom: 0.5rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .card {
+            border: 1px solid #eaecef;
+            border-radius: 6px;
+            padding: 1rem;
+            background: #fafbfc;
+        }
+
+        ul {
+            padding-left: 1.25rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            color: #57606a;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: #0969da;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <p>Systems Engineer | Developer | Infrastructure & Automation</p>
+</header>
+
+<main>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <section>
+        <h2>Professional Summary</h2>
+        <p>
+            Brief, high-impact overview of who you are professionally.
+            Mention your focus areas, years of experience, and what problems you
+            specialize in solving.
+        </p>
+        <p>
+            Example: I design, deploy, and maintain reliable systems with a strong
+            emphasis on automation, observability, and operational efficiency.
+        </p>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+            <li>
+                <strong>Certification Name</strong> – Issuer (Year)
+            </li>
+            <li>
+                <strong>Certification Name</strong> – Issuer (Year)
+            </li>
+            <li>
+                <strong>Certification Name</strong> – Issuer (Year)
+            </li>
+        </ul>
+    </section>
+
+    <!-- TECHNOLOGIES -->
+    <section>
+        <h2>Technologies & Tools</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Infrastructure & Systems</h3>
+                <p>
+                    Describe how you actually use these technologies in real
+                    environments.
+                </p>
+                <ul>
+                    <li>Linux (Debian / Ubuntu)</li>
+                    <li>Proxmox VE</li>
+                    <li>Docker & Containers</li>
+                    <li>Virtualization</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Networking</h3>
+                <p>
+                    Highlight practical experience, not just familiarity.
+                </p>
+                <ul>
+                    <li>TCP/IP, DNS, DHCP</li>
+                    <li>Firewalls & Routing</li>
+                    <li>VPNs (WireGuard / Tailscale)</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Programming & Automation</h3>
+                <p>
+                    Emphasize what you automate and why.
+                </p>
+                <ul>
+                    <li>Python</li>
+                    <li>Bash / Shell scripting</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Monitoring & Data</h3>
+                <p>
+                    Explain how you collect, store, and visualize data.
+                </p>
+                <ul>
+                    <li>InfluxDB</li>
+                    <li>Grafana</li>
+                    <li>Logging & Metrics</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS / EXPERIENCE -->
+    <section>
+        <h2>Projects & Experience</h2>
+
+        <div class="card">
+            <h3>Project or System Name</h3>
+            <p>
+                Clear explanation of what you built, why it exists, and what
+                technologies were involved.
+            </p>
+            <ul>
+                <li>Problem solved</li>
+                <li>Architecture decisions</li>
+                <li>Results / outcomes</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+        <h2>Contact</h2>
+        <p>
+            GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a>
+        </p>
+        <p>
+            Email: <a href="mailto:you@example.com">you@example.com</a>
+        </p>
+        <p>
+            LinkedIn: <a href="#">Your LinkedIn Profile</a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    © 2025 Your Name
+</footer>
+
+</body>
+</html>
